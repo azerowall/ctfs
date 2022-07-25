@@ -1,0 +1,7 @@
+wallet  size = 184
++0   std::string filename?
++40  std::string unk
++72  uint8_t     bytes[?]
++96  std::string login       // len > 0x20 not allowed
++128 std::string password    // len > 0x40 not allowed
++160 uint8_t     bytes[?]
